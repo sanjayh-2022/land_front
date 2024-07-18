@@ -1,0 +1,144 @@
+
+
+/* buyer.ejs */
+.mainbuyer {
+  background: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+.usercircle {
+  height: 220px;
+  background-color: white;
+  display: block;
+  width: 219px;
+  position: absolute;
+  top: 676px;
+  left: 96px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.usercircle img {
+  position: absolute;
+  top: 53px;
+  left: 5px;
+  border-radius: 153px;
+  width: 208px;
+  height: 137px;
+}
+.buyerprintingdetails {
+  overflow: hidden;
+  position: relative;
+  top: 200px;
+}
+
+.img-wrapper {
+  max-width: 100%;
+  height: 65vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.img-wrapper img {
+  width: 100%;
+  height: 15rem;
+  border-radius: 20px 20px 0 0;
+}
+.carousel-item {
+  height: 22rem !important;
+  width: 25rem !important;
+}
+.card {
+  height: 25rem !important;
+  width: 25rem !important;
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  font-size: 0.9em;
+  border-radius: 20px;
+}
+.plussymbol {
+  font-size: 2.3rem;
+  margin-left: 19.3rem;
+  position: relative;
+  top: -39px;
+  cursor: pointer;
+}
+.plussymbol:hover {
+  font-size: 2.5rem;
+}
+
+.head1 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0;
+  margin-left: 0.8rem;
+}
+.per1 {
+  color: rgb(148, 145, 145);
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
+
+/* showprop.ejs */
+.show-image {
+  height: 96% !important;
+  width: 100% !important;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 11px;
+}
+.btns {
+  display: flex;
+}
+
+.show-card {
+  height: 26rem !important;
+  width: 48rem !important;
+  margin: 0px 16.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  font-size: 0.9em;
+  border-radius: 20px;
+}
+.showcard-body {
+  position: relative;
+  margin-top: 50px;
+}
+
+/* verifybygovt ejs */
+
+.approvebutton {
+  width: 20px;
+  border-radius: 50%;
+  height: 20px;
+}
+
+.approvebutton {
+  width: 20px;
+  border-radius: 50%;
+  height: 20px;
+}
+
+
+
+/* connect owner.ejs */
+.connecting-form {
+  height: 350px;
+  width: 450px;
+  background-color: rgb(241, 241, 241);
+  position: relative;
+  top: 4rem;
+  left: 33rem;
+  padding: 2rem;
+}
+.connectwithmetamask {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 34px;
+  height: 3rem;
+  width: 15rem;
+  margin-left: 65px;
+}
+.connectwithmetamask:hover {
+  box-shadow: 3px 2px rgb(169, 169, 169);
+}
